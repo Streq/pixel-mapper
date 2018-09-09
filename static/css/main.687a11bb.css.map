@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,MACE,gBAAkB","file":"static/css/main.687a11bb.css","sourcesContent":["h1, h2 {\r\n  font-family: Lato;\r\n}\n\n\n// WEBPACK FOOTER //\n// ./src/style.css"],"sourceRoot":""}
