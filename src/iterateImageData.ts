@@ -4,7 +4,7 @@ export default function iterateImageData(data : ImageData, callback : (pixel:Pix
   let i = 0
     , arr = data.data
     , w = data.width
-    , h = data.height
+//    , h = data.height
     , len = arr.length/4;
 
   for(; i < len; ++i){

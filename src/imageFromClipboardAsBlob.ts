@@ -11,7 +11,7 @@ export default function retrieveImageFromClipboardAsBlob(pasteEvent: ClipboardEv
       // Skip content if not image
       if (items[i].type.indexOf("image") == -1) continue;
       // Retrieve image on clipboard as blob
-      var blob = items[i].getAsFile();
+      var blob: File = items[i].getAsFile()!;
       return resolve(blob);
     }
   })

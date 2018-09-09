@@ -10,7 +10,7 @@ export default function fileToImage (imageBlob: File){
       };
 
       // Crossbrowser support for URL
-      var URLObj = window.URL || window.webkitURL;
+      var URLObj = window.URL || window["webkitURL"];
 
       // Creates a DOMString containing a URL representing the object given in the parameter
       // namely the original Blob
